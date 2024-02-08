@@ -1,0 +1,68 @@
+fruit="apple"
+
+#!/bin/bash
+
+echo "Please, enter the name of your fruit: "
+read fruit
+case $fruit in
+    "apple")
+        echo "This is a red fruit."
+        ;;
+    "banana")
+        echo "This is a yellow fruit."
+        ;;
+    "orange")
+        echo "This is an orange fruit."
+        ;;
+    *)
+        echo "Unknown fruit."
+        ;;
+esac
+
+
+echo "Please, choose one of the numbers: 1, 2, 3"
+read num
+
+case $num in
+    "1")
+        echo "your exam site is at residence hall."
+        ;;
+    "2")
+        echo "your exam site is at showing hall."
+        ;;
+    "3")
+        echo "your exam will be held tomorrow at 13:00"
+        ;;
+    *)
+        echo "you entered an invalid number or data."
+        ;;
+esac
+
+
+
+
+echo "Please, choose one of the numbers: 1, 2, 3  "
+read num
+
+case $num in
+    "1")
+        echo "your exam site is at residence hall."
+        ;;
+    "2")
+        echo "your exam site is at showing hall."
+        ;;
+    "3")
+        echo "your exam will be held tomorrow at 13:00"
+        ;;
+    *)
+        echo "you entered an invalid number or data."
+        ;;
+esac
+
+
+
+
+
+
+
+
