@@ -1,0 +1,4 @@
+#!/bin/bash
+
+a=$(date -d "+2 day" +%Y-%m-%d)
+echo $a
